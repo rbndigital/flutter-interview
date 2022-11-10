@@ -4,6 +4,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:platform_design/App/ui/tabs/song_detail.dart';
 
 /// A platform-agnostic card with a high elevation that reacts when tapped.
 ///
@@ -67,6 +68,10 @@ class _PressableCardState extends State<PressableCard>
         behavior: HitTestBehavior.opaque,
         onTap: () {
           widget.onPressed?.call();
+          Navigator.push(
+              context,
+              MaterialPageRoute<Route>(
+                  builder: (context) => const SongDetail()));
         },
         // This widget both internally drives an animation when pressed and
         // responds to an external animation to flatten the card when in a
