@@ -4,7 +4,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:platform_design/App/pages/platform_adapting_home_page.dart';
+import 'package:platform_design/App/ui/platform_adapting_home_page.dart';
 
 void main() => runApp(const MyAdaptingApp());
 
