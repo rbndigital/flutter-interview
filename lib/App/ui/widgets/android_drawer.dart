@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:platform_design/news_tab.dart';
-import 'package:platform_design/profile_tab.dart';
-import 'package:platform_design/settings_tab.dart';
-import 'package:platform_design/songs_tab.dart';
+import 'package:platform_design/App/pages/tabs/profile_tab.dart';
+import 'package:platform_design/App/pages/tabs/settings_tab.dart';
+import 'package:platform_design/App/ui/tabs/news_tab.dart';
+import 'package:platform_design/App/ui/tabs/songs_tab.dart';
 
 class AndroidDrawer extends StatelessWidget {
   @override

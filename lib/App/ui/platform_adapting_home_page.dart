@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:platform_design/news_tab.dart';
-import 'package:platform_design/profile_tab.dart';
-import 'package:platform_design/songs_tab.dart';
-import 'package:platform_design/widgets/android_drawer.dart';
+import 'package:platform_design/App/pages/profile_tab.dart';
+import 'package:platform_design/App/pages/tabs/songs_tab.dart';
+import 'package:platform_design/App/ui/tabs/news_tab.dart';
+import 'package:platform_design/App/ui/widgets/android_drawer.dart';
 
 // Shows a different type of scaffold depending on the platform.
 //

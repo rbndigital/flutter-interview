@@ -2,15 +2,9 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter/cupertino.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:platform_design/pages/platform_adapting_home_page.dart';
-import 'package:platform_design/widgets/android_drawer.dart';
-import 'news_tab.dart';
-import 'profile_tab.dart';
-import 'settings_tab.dart';
-import 'songs_tab.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:platform_design/App/pages/platform_adapting_home_page.dart';
 
 void main() => runApp(const MyAdaptingApp());
 

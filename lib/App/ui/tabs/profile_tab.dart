@@ -5,8 +5,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'widgets/preference_card.dart';
-import 'pressable_card.dart';
+import 'package:platform_design/App/widgets/preference_card.dart';
 import 'settings_tab.dart';
 
 class ProfileTab extends StatelessWidget {

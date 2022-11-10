@@ -5,10 +5,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-
-import 'pressable_card.dart';
+import 'package:platform_design/App/commun/utils.dart';
+import '../widgets/pressable_card.dart';
 import 'song_detail_tab.dart';
-import 'utils.dart';
 
 class SongsTab extends StatefulWidget {
   static const title = 'Songs';

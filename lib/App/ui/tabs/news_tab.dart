@@ -6,8 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_lorem/flutter_lorem.dart';
-
-import 'utils.dart';
+import 'package:platform_design/App/commun/utils.dart';
 
 class NewsTab extends StatefulWidget {
   static const title = 'News';
