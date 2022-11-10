@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:platform_design/App/pages/tabs/profile_tab.dart';
-import 'package:platform_design/App/pages/tabs/settings_tab.dart';
+import 'package:platform_design/App/ui/tabs/profile_tab.dart';
+import 'package:platform_design/App/ui/tabs/settings_tab.dart';
 import 'package:platform_design/App/ui/tabs/news_tab.dart';
 import 'package:platform_design/App/ui/tabs/songs_tab.dart';
 

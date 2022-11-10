@@ -6,6 +6,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:platform_design/App/commun/utils.dart';
+import 'package:platform_design/App/ui/tabs/song_detail.dart';
 import '../widgets/pressable_card.dart';
 import 'song_detail_tab.dart';
 
@@ -73,33 +74,40 @@ class _SongsTabState extends State<SongsTab> {
             color: color,
             flattenAnimation: heroAnimation,
             child: Container(
-              child: Stack(
-                alignment: Alignment.center,
-                children: [
-                  // The song title banner slides off in the hero animation.
-                  Container(
-                    height: 80,
-                    alignment: Alignment.centerLeft,
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: Text(
-                      songNames[index],
-                      style: const TextStyle(
-                        fontSize: 21,
-                        fontWeight: FontWeight.w500,
+                child: Column(
+              children: [
+                Container(
+                    padding: const EdgeInsets.only(top: 40),
+                    child: Image.network(
+                        'https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U')),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    // The song title banner slides off in the hero animation.
+                    Container(
+                      height: 80,
+                      alignment: Alignment.centerLeft,
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      child: Text(
+                        songNames[index],
+                        style: const TextStyle(
+                          fontSize: 21,
+                          fontWeight: FontWeight.w500,
+                        ),
                       ),
                     ),
-                  ),
-                  // The play button grows in the hero animation.
-                  Container(
-                    alignment: Alignment.centerRight,
-                    padding: const EdgeInsets.symmetric(horizontal: 12),
-                    child: Icon(Icons.play_arrow,
-                        size: 50 + 50 * heroAnimation.value,
-                        color: Colors.black38),
-                  ),
-                ],
-              ),
-            ),
+                    // The play button grows in the hero animation.
+                    Container(
+                      alignment: Alignment.centerRight,
+                      padding: const EdgeInsets.symmetric(horizontal: 12),
+                      child: Icon(Icons.play_arrow,
+                          size: 50 + 50 * heroAnimation.value,
+                          color: Colors.black38),
+                    ),
+                  ],
+                ),
+              ],
+            )),
           );
         },
       ),

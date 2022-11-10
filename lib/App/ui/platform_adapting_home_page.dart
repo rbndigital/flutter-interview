@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
-import 'package:platform_design/App/pages/profile_tab.dart';
-import 'package:platform_design/App/pages/tabs/songs_tab.dart';
+import 'package:platform_design/App/ui/tabs/profile_tab.dart';
+import 'package:platform_design/App/ui/tabs/songs_tab.dart';
 import 'package:platform_design/App/ui/tabs/news_tab.dart';
 import 'package:platform_design/App/ui/widgets/android_drawer.dart';
 

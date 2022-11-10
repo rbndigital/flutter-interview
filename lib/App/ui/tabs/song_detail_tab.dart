@@ -5,7 +5,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:platform_design/App/widgets/pressable_card.dart';
+import 'package:platform_design/App/ui/widgets/pressable_card.dart';
 
 /// Page shown when a card in the songs tab is tapped.
 ///
